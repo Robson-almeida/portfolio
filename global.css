@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0C222F;
+    font-family: 'Miriam Libre', 'sans-serif';
+}
+
+
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

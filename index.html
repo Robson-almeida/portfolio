@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header >
+       <div class="header-menu">
+        <a href="/"><img src="./img/logo.svg" alt=""></a>
+        <nav class="navbar">
+         <ul>
+             <li><a href="#Inicio">Inicio</a></li>
+             <li><a href="#sobremim">Sobre mim</a></li>
+             <li><a href="#Habilidades">Habilidades</a></li>
+             <li><a href="#Projetos">Projetos</a></li>
+         </ul>
+         <button id="btn-mobile">
+             <i class="fa-solid fa-bars"></i>
+         </button>
+        </nav>
+       </div>
+       <div id="menu-mobile">
+        <ul>
+            <li><a href="#Inicio">Inicio</a></li>
+            <li><a href="#sobremim">Sobre mim</a></li>
+            <li><a href="#Habilidades">Habilidades</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+        </ul>
+       </div>
+    </header>
+    <main>
+        <section class="section-start" id="start">
+            <h1>Seu futuro programador <br>
+            <span>Front-end</span></h1>
+            <p>Me chamo Robson Almeida ,  22 anos , desenvolvedor front-end, saiba mais sobre mim</p>
+            <a href="https://github.com/Robson-almeida" target="_blank"><i class="fa-brands fa-github"></i> Github</a>
+            <a href="https://www.linkedin.com/in/robson-almeida-1a5b23228/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+        </section>
+        <section class="about-me" id="sobremim">
+            <h1>Sobre mim</h1>
+            <div class="about-me-content">
+                <img class="img-about" src="./img/foto de perfil 1.svg" alt="">
+                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+        </section>
+        <section class="skils" id="Habilidades"> 
+            <h1>Habilidades</h1>   
+            <div class="skils-slide">
+                <div class="skils-slide-items">
+                    <img src="./img/html.svg" alt="">
+                    <img src="./img/css.svg" alt="">
+                    <img src="./img/javascript.svg" alt="">
+                    <img src="./img/Github.svg" alt="">
+                    <img src="./img/Git.svg" alt="">
+                    <img src="./img/react.svg" alt="">
+                    <img src="./img/Tailwindcss.svg" alt="">
+                </div>
+
+            </div>         
+        </section>
+        <section class="section-project" id="Projetos"> 
+            <h1>Projetos</h1>  
+            <div class="poject-content" id="project">
+                <img class="img-project" src="./img/bikecraft.svg" alt="">
+                <div class="poject-explanation">
+                    <h2>BikeCraft</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas totam laborum provident aliquid iure magnam accusamus nihil velit saepe eligendi perspiciatis recusandae quod illum error magni adipisci amet, dolores quos?</p>
+                    <div class="project-technologies">
+                        <img src="./img/html.svg" alt="">
+                        <img src="./img/css.svg" alt="">
+                        <img src="./img/javascript.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="poject-content reverse" id="project">
+                <div class="poject-explanation2">
+                    <h2>Wolf</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas totam laborum provident aliquid iure magnam accusamus nihil velit saepe eligendi perspiciatis recusandae quod illum error magni adipisci amet, dolores quos?</p>
+                    <div class="project-technologies">
+                        <img src="./img/html.svg" alt="">
+                        <img src="./img/css.svg" alt="">
+                        <img src="./img/javascript.svg" alt="">
+                    </div>
+                </div>
+                <img  class="img-project" src="./img/wolf.svg" alt="">
+            </div>
+            <div class="poject-content" id="project">
+                <img  class="img-project" src="./img/SQ6FLIX.svg" alt="">
+                <div class="poject-explanation">
+                    <h2>SQ6FLIX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas totam laborum provident aliquid iure magnam accusamus nihil velit saepe eligendi perspiciatis recusandae quod illum error magni adipisci amet, dolores quos?</p>
+                    <div class="project-technologies">
+                        
+                        <img src="./img/react.svg" alt="">
+                        <img src="./img/Tailwindcss.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer-container" id="contato">
+      <div class="footer-icons">  
+        <a href="https://www.instagram.com/_robsonalmeida0/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/Robson-almeida"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/robson-almeida-1a5b23228/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-google"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-solid fa-phone"></i></a>
+    </div>
+    </footer>
+    <div class="copy">
+        <p>Portfolio © Alguns direitos reservados.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
