@@ -166,18 +166,23 @@ margin-bottom: 80px;
     margin: 30px;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 850px) {
     .about-me h1{
         font-size: 40px;
     }
     .about-me-content p {
         max-width: 40ch;
-        font-size: 15px; 
+        font-size: 20px; 
        
     }
 
     .about-me-content {
         flex-direction: column;
+    }
+
+    .img-about {
+        width: 300px;
+        height: 300px;
     }
 
 }
@@ -372,6 +377,15 @@ margin-bottom: 80px;
     align-items: center;
     padding: 16px;
     border-radius: 100%;
+}
+
+@media (max-width: 500px) {
+    .footer-icons a {
+        margin-right: 16px;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
 }
 
 .copy {
